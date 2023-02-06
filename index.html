@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a78f584315.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand d-flex align-items-center"> <i class="fa-brands fa-instagram fs-3 p-2"></i>
+                    Instagram </a>
+                <form class="d-flex gap-1">
+                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Create a New Post
+                    </button>
+
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Create a New Post</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Add the caption of your post here
+                                </div>
+                                <div class="modal-footer">
+                                    <div class="mr-5"><i class="fa-solid fa-camera"></i>
+                                        <i class="fa-solid fa-location-dot"></i>
+                                    </div>
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-success">Publish</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <div class="dropdown" data-bs-theme="light">
+                            <button class="btn btn-secondary dropdown-start" type="button" id="dropdownMenuButtonLight"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-cog"></i>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButtonLight">
+                                <li><a class="dropdown-item active" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Profile</a></li>
+                                <li><a class="dropdown-item" href="#">Accesibility</a></li>
+                                <li><a class="dropdown-item" href="#">Privacy and data</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item text-danger" href="#">Log Out</a></li>
+                            </ul>
+                        </div>
+                </form>
+            </div>
+        </nav>
+        <ul class="nav nav-pills mb-3 d-flex justify-content-center mt-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+                    type="button" role="tab" aria-controls="pills-home" aria-selected="true"><i
+                        class="fa-solid fa-square"></i>
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+                    type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><i
+                        class="fas fa-th"></i></button>
+            </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+                tabindex="0">
+                <div class="container text-center">
+                    <div class="row justify-content-center gap-3">
+                        <div class="col-4">
+                            <div class="card" style="width: 26rem;">
+                                <div class="d-flex justify-content-between p-3 mt-3 border-bottom">
+                                    <h2>mi mejor camara</h2>
+                                    <p>12/08</p>
+                                </div>
+                                <img src="https://tecnomad.pro/wp-content/uploads/2019/05/fotografia-analogica-tecnomad-f2-portada.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        <p class="text-start"> <b>216 likes </b> 
+                                            <br>
+                                        La Nikon F2 es una cámara reflex mono-objetivo de formato 35
+                                        mm.
+                                        Fue producida, de 1971 a 1980, por la compañía japonesa Nippon Kogaku K. K
+                                        (filial de Nikon desde 1988). La cámara utiliza un obturador de plano focal
+                                        horizontal equipado con cortinas de titanio que ofrecen una velocidad de
+                                        obturación máxima de 1/2000 de segundo, y ofrece una sincronización de flash a
+                                        1/80 s.1​</p> 
+                                </div>
+                            </div>
+                        </div>
+                        <div></div>
+                        <div class="col-4">
+                            <div class="card" style="width: 26rem;">
+                                <div class="d-flex justify-content-between p-3 mt-3 border-bottom">
+                                    <h2>mi camara preferida</h2>
+                                    <p>22/07</p>
+                                </div>
+                                <img src="https://i0.wp.com/medusa-analog.com/wp-content/uploads/2022/01/MG_4022.png?fit=1094%2C729&ssl=1"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        <p class="text-start"> <b>118 likes </b> <br>
+                                        La Canon A-1 es una cámara réflex de un solo objetivo para
+                                        película de 35 mm con objetivos intercambiables. Se fabricó en Japón entre 1978
+                                        y 1985 por Canon Camera K.K. (hoy Canon, Inc). Está provista de un obturador de
+                                        cortinilla textil con un rango de velocidades de entre 30 y 1/1000 de segundo,
+                                        con función Bulbo y sincronización con el flash a 1/60s.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div></div>
+                        <div class="col-4">
+                            <div class="card" style="width: 26rem;">
+                                <div class="d-flex justify-content-between p-3 mt-3 border-bottom">
+                                    <h2>la tendencia</h2>
+                                    <p>15/07</p>
+                                </div>
+                                <img src="https://cdn.shopify.com/s/files/1/0067/1055/8804/products/CONTAXT2_1024x1024@2x.jpg?v=1587027452"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        <p class="text-start"> <b> 299 likes </b> <br> 
+                                            Como cámara, la T2 cuenta con una lente Carl Zeiss de 1.496 in
+                                        f/2.8 T*, modo de programa y prioridad de apertura. El rango de apertura es
+                                        f/2.8-f/16. El rango de velocidad de obturación es de 1 a 1/500 segundos en modo
+                                        programa. El rango ISO es de 25 a 5000. La cámara se basa en una batería CR123A.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
+                tabindex="0">
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="https://i.pinimg.com/736x/c2/a3/a1/c2a3a18c2fdbd1b12b3f2db055209d68.jpg"
+                                class="img-thumbnail" alt="...">
+                        </div>
+                        <div class="col-4">
+                            <img src="https://coconuts.co/wp-content/uploads/2021/11/IMG_1363.jpg" class="img-thumbnail"
+                                alt="...">
+                        </div>
+                        <div class="col-4">
+                            <img src="https://images.unsplash.com/photo-1596641532299-7cf6455a1363?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YW5hbG9nfGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+                                class="img-thumbnail" alt="...">
+                        </div>
+                        <div class="col-4">
+                            <img src="https://coolwallpapers.me/picsup/5287654-reflection-girl-color-lighting-winning-fame-glory-instant-vsco-best-filming-film-usa-seventee-classic-analog-story-sad-mysterio-dangerou-free-pictures.jpg "
+                                class="img-thumbnail" alt="...">
+                        </div>
+                        <div class="col-4">
+                            <img src="https://external-preview.redd.it/UQZeoEy9p6PSm2Uuhm0BSCJXO_5GjRBAyu13VvHz3KI.jpg?width=640&crop=smart&auto=webp&s=e533b7825892841b65d11bd7bb1efceb33ec55f2"
+                                class="img-thumbnail" alt="...">
+                        </div>
+                        <div class="col-4">
+                            <img src="https://images.unsplash.com/photo-1598962134959-27a16982a4db?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YW5hbG9nJTIwcGhvdG9ncmFwaHl8ZW58MHx8MHx8&w=1000&q=80"
+                                class="img-thumbnail" alt="...">
+                        </div>
+                        <div class="col-4">
+                            <img src="https://res.cloudinary.com/analog-cafe/image/upload/c_fill,fl_progressive,w_1268/image-froth_1507950_HyzuRgCKm.jpg"
+                                class="img-thumbnail" alt="...">
+                        </div>
+                        <div class="col-4">
+                            <img src="http://images.ctfassets.net/r7p9m4b1iqbp/NTJuSk4g0uaOwCGY8SwMq/228075a2bb20d88aff03466239628ed6/Natalie-Allen-12-Self-Portait-Japan.jpg?w=1000"
+                                class="img-thumbnail" alt="...">
+                        </div>
+                        <div class="col-4">
+                            <img src="https://static.wixstatic.com/media/bb1bd6_25180eac475c4872b1ee3c62eb6b9721~mv2.jpg/v1/fill/w_640,h_416,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/bb1bd6_25180eac475c4872b1ee3c62eb6b9721~mv2.jpg"
+                                class="img-thumbnail" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
